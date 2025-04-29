@@ -1,1 +1,13 @@
 # Swap-data-stored-in-two-variable-using-extra-variable-
+#include<stdio.h>
+int main ()
+{
+   int a=5,b=10,c;
+   c=a;
+   a=b;
+   b=c;
+   printf("After swapping using extra variable:\n");
+   printf("a=%d\n",a);
+   printf("b=%d\n",b);
+   return 0;
+}
